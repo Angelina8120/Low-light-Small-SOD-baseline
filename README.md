@@ -69,6 +69,7 @@ Morever, to validate the importance of LISP and the effectiveness of EIGNet for 
 
 ## Testing & Evaluate
 - If you just want to evaluate the performance of EIGNet without training, please download our trained model and unzip trained model. Note that the model in 'out(DUTS)', 'out(LISP_Train)', and 'out(small DUTS-TR)' folder is trained by DUTS-TR, LISP_Train, and small DUTS-TR dataset respectively.
+
 - Predict the saliency maps
 ```shell
     python test.py
