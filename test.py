@@ -19,7 +19,7 @@ from net import LDF
 class Test(object):
     def __init__(self, Dataset, Network, Path):
         ## dataset
-        self.cfg    = Dataset.Config(datapath=Path, snapshot='./out(DUTS-MM)/model-59', mode='test')
+        self.cfg    = Dataset.Config(datapath=Path, snapshot='./trained model/out(small DUTS-TR)/model-55', mode='test')
         self.data   = Dataset.Data(self.cfg)
         self.loader = DataLoader(self.data, batch_size=1, shuffle=False, num_workers=8)
         ## network
