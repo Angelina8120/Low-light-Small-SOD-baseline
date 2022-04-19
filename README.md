@@ -1,10 +1,12 @@
 ## Catching Small Persons/Vehicles in Low Light: A New SOD Benchmark
 by Xin Xu, Shiqin Wang, Zheng Wang, Chia-Wen Lin, Meng Wang
 
+- Since our paper is still under review, we will release our dataset and code once the paper is accepted. Thanks for your understanding.
+
 ## Low lIght Salient Person/vehicle (LISP) dataset
 - Recent years have witnessed rapid progress if Salient Object Detection (SOD). However, relatively few efforts have been dedicated to modeling salient object detection in low-light scenes with small persons/vehicles. Furthmore, realistic applications of salient person/vehicle detection at long distances in low-light environments commonly exist in nighttime surveillance and nighttime autonomous driving. In particular, for autonomous driving at night, detecting people/vehicles with high reliability is paramount for safety. To fill the gap, we elaborately collect a new Low lIght Salient Person/vehicle (LISP) dataset, which consists of 1,000 high-resolution images containing low-light small persons/vehicles, and covers diverse challenging cases (e.g., low-light, non-uniform illumination environment, and small objects).
 
-- The LISP dataset is for academic use only. By downloading the dataset, you guarantee that you will use this dataset for academic work only.
+- LISP dataset are not openly available due to human data and are available upon resonable request for academic use and within the limitations of the provided informer consent upon acceptance. By downloading the dataset, you guarantee that you will use this dataset for academic work only. 
 
 - Comparison of LISP with existing SOD datasets 
 
@@ -36,7 +38,7 @@ cd Low-light-Small-SOD-baseline/
 Download the following datasets and unzip them into `data` folder
 
 Most of the existing RGB datasets contain multi-scale salient object images, but a large-scale dataset particularly designed for addressing small SOD problems is still missing. To address this issue, we propose a Zoom Out Salient Object (ZOSO) strategy to generate a synthetic normal-light small object (small DUTS-TR) dataset for training.
-- small DUTS-TR
+- small DUTS-TR 
 
 We conduct experiments on our proposed LISP dataset and five widely used datasets, ECSSD, PASCAL-S, DUTS, DUT-OMRON, and SOD.
 - [ECSSD](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html)
